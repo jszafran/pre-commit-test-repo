@@ -1,0 +1,6 @@
+-   id: test-dummy-hook
+    name: Just a testing hook.
+    description: Testing hook.
+    entry: test-dummy-hook
+    language: python
+    stages: [commit]
