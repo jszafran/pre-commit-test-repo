@@ -9,8 +9,6 @@ def main() -> int:
     args = parser.parse_args(sys.argv[1:])
     retval = 0
 
-    path = pathlib.Path(args.filepath)
-    path.touch(exist_ok=True)
     message = args.message
 
     if message == "yes":
